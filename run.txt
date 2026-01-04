@@ -1,0 +1,63 @@
+
+python -m streamlit run app.py
+
+
+Description for software Developer
+
+
+Fresher Software Developer Job Description Template
+As a Fresher Software Developer, you will be responsible for coding, debugging, and maintaining software applications according to project requirements. You will work closely with senior developers to learn best practices and gain hands-on experience in real-world projects.
+
+Post Fresher Software Developer Job
+Responsibilities
+Write clean, scalable, and efficient code.
+Collaborate with senior developers to design software solutions.
+Debug and troubleshoot software issues.
+Participate in code reviews and contribute to team knowledge sharing.
+Assist in the testing and deployment of software applications.
+Stay current with industry trends and emerging technologies.
+Qualifications
+Bachelor's degree in Computer Science, Engineering, or a related field.
+Strong understanding of programming fundamentals.
+Proficiency in at least one programming language (e.g., Java, C++, Python).
+Ability to work well in a team environment.
+Good problem-solving and analytical skills.
+Eagerness to learn and adapt to new technologies.
+Skills
+Java
+C++
+Python
+SQL
+Git
+HTML/CSS
+JavaScript
+Debugging
+Version Control
+Problem-solving
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Description for Data Analyst - 
+
+Job brief
+We are looking for a passionate certified Data Analyst. The successful candidate will turn data into information, information into insight and insight into business decisions.
+
+Data Analyst Job Duties
+Data analyst responsibilities include conducting full lifecycle analysis to include requirements, activities and design. Data analysts will develop analysis and reporting capabilities. They will also monitor performance and quality control plans to identify improvements.
+
+Responsibilities
+Interpret data, analyze results using statistical techniques and provide ongoing reports
+Develop and implement databases, data collection systems, data analytics and other strategies that optimize statistical efficiency and quality
+Acquire data from primary or secondary data sources and maintain databases/data systems
+Identify, analyze, and interpret trends or patterns in complex data sets
+Filter and “clean” data by reviewing computer reports, printouts, and performance indicators to locate and correct code problems
+Work with management to prioritize business and information needs
+Locate and define new process improvement opportunities
+Requirements and skills
+Proven working experience as a Data Analyst or Business Data Analyst
+Technical expertise regarding data models, database design development, data mining and segmentation techniques
+Strong knowledge of and experience with reporting packages (Business Objects etc), databases (SQL etc), programming (XML, Javascript, or ETL frameworks)
+Knowledge of statistics and experience using statistical packages for analyzing datasets (Excel, SPSS, SAS etc)
+Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy
+Adept at queries, report writing and presenting findings
+BS in Mathematics, Economics, Computer Science, Information Management or Statistics
