@@ -9,7 +9,7 @@ This project simulates an **ATS-style resume screening process** using transpare
 
 ## 🌐 Live Demo
 
-🔗 **Live Application:** https://ai-resume-job-matcher.streamlit.app
+🔗 **Live Application:** [https://ai-resume-job-matcher.streamlit.app](https://ai-resume-job-matcher-jpjyv5v3gvhfxklydnumbv.streamlit.app/)
 
 ---
 
