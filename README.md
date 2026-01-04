@@ -1,4 +1,4 @@
-# AI Resume & Job Matcher
+# SkillAlign AI – Job Fit Analyzer
 
 An AI-powered Streamlit application that evaluates how well a resume matches a given job description.  
 The system calculates a percentage match, determines eligibility, highlights matching and missing skills, and suggests what to learn to qualify for the role.
