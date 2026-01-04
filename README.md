@@ -122,6 +122,7 @@ A progress indicator guides the user through the evaluation steps.
 
 ## 📂 Project Structure
 
+```text
 AI-Resume-Job-Matcher/
 │
 ├── app.py
@@ -130,14 +131,16 @@ AI-Resume-Job-Matcher/
 ├── .gitignore
 │
 ├── src/
-│ ├── resume_parser.py
-│ ├── jd_parser.py
-│ ├── matcher.py
-│ ├── eligibility.py
-│ └── suggestions.py
+│   ├── resume_parser.py
+│   ├── jd_parser.py
+│   ├── matcher.py
+│   ├── eligibility.py
+│   └── suggestions.py
 │
 └── sample_data/
-└── sample_jd.txt
+    └── sample_jd.txt
+```
+
 
 
 
