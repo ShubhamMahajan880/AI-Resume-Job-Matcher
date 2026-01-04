@@ -3,7 +3,13 @@
 An AI-powered Streamlit application that evaluates how well a resume matches a given job description.  
 The system calculates a percentage match, determines eligibility, highlights matching and missing skills, and suggests what to learn to qualify for the role.
 
-This project simulates an **ATS-style resume screening process** using skill-based evaluation.
+This project simulates an **ATS-style resume screening process** using transparent, skill-based evaluation.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Application:** https://ai-resume-job-matcher.streamlit.app
 
 ---
 
@@ -19,7 +25,7 @@ This leads to:
 - Avoidable rejections.
 - No clear learning direction.
 
-**AI Resume & Job Matcher** solves this by providing a transparent, explainable resume–JD evaluation before applying.
+**AI Resume & Job Matcher** solves this by providing a clear, explainable resume–job description evaluation *before* applying.
 
 ---
 
@@ -31,66 +37,24 @@ This leads to:
 4. Resume skills are compared **strictly against job requirements**.
 5. A match percentage and eligibility status are calculated.
 6. Missing skills are identified.
-7. Actionable learning recommendations are provided.
+7. Actionable learning recommendations are generated.
 
-The logic is deterministic and explainable, similar to how ATS systems filter candidates.
+The logic is deterministic and explainable, similar to how ATS systems screen candidates.
 
 ---
 
 ## 📊 Match Logic (ATS-Style)
 
-
-
-
-# AI Resume & Job Matcher
-
-An AI-powered Streamlit application that evaluates how well a resume matches a given job description.  
-The system calculates a percentage match, determines eligibility, highlights matching and missing skills, and suggests what to learn to qualify for the role.
-
-This project simulates an **ATS-style resume screening process** using skill-based evaluation.
-
----
-
-## 🚀 Problem Statement
-
-Job applicants often apply without knowing:
-- Whether their resume actually matches the job requirements.
-- Which skills they already qualify for.
-- What skills are missing and need improvement.
-
-This leads to:
-- Blind applications.
-- Avoidable rejections.
-- No clear learning direction.
-
-**AI Resume & Job Matcher** solves this by providing a transparent, explainable resume–JD evaluation before applying.
-
----
-
-## 🧠 How It Works (High-Level)
-
-1. User uploads a **resume (PDF)**.
-2. User pastes a **job description**.
-3. The system extracts relevant skills from both.
-4. Resume skills are compared **strictly against job requirements**.
-5. A match percentage and eligibility status are calculated.
-6. Missing skills are identified.
-7. Actionable learning recommendations are provided.
-
-The logic is deterministic and explainable, similar to how ATS systems filter candidates.
-
----
+```text
 Match Percentage = (Matched Job Skills / Total Job Skills) × 100
-
-## 📊 Match Logic (ATS-Style)
-
+```
 
 ### Eligibility Criteria
-- **Eligible**: ≥ 70%
-- **Partially Eligible**: 40% – 69%
-- **Not Eligible**: < 40%
+- **Eligible:** ≥ 70%
+- **Partially Eligible:** 40% – 69%
+- **Not Eligible:** < 40%
 
-This ensures evaluation is **job-driven**, not resume-driven.
+This ensures the evaluation is **job-driven**, not resume-driven.
 
 ---
 
@@ -106,14 +70,14 @@ This ensures evaluation is **job-driven**, not resume-driven.
    - Missing criteria.
    - What to learn next.
 
-A progress indicator guides the user through the evaluation steps.
+A step-based flow with progress indicators guides the user through the evaluation.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Python**
-- **Streamlit** – UI and interaction.
+- **Streamlit** – UI and application flow.
 - **pdfplumber** – Resume PDF parsing.
 - **Regex-based NLP** – Skill extraction.
 - **Pandas** – Tabular visualization.
@@ -141,9 +105,6 @@ AI-Resume-Job-Matcher/
     └── sample_jd.txt
 ```
 
-
-
-
 ---
 
 ## ▶️ Run Locally
@@ -156,9 +117,62 @@ AI-Resume-Job-Matcher/
 ```bash
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
+```
 
 Open browser at:
+```
 http://localhost:8501
+```
 
+---
 
+## 📌 Example Output
 
+- **Match Percentage:** 55%
+- **Eligibility:** Partially Eligible
+- **Matching Skills:** Python, SQL
+- **Missing Skills:** Data Structures, Docker
+- **Learning Suggestions:**
+  - Learn core data structures and algorithms.
+  - Understand containerization using Docker.
+
+---
+
+## ⚠️ Limitations
+
+- Skill extraction is keyword-based (not semantic).
+- Does not evaluate years of experience or depth of expertise.
+- Designed as a screening and learning assistant, not a final hiring decision tool.
+
+---
+
+## 🔮 Future Enhancements
+
+- NLP-based semantic skill extraction.
+- Resume bullet-point improvement suggestions.
+- Job description PDF upload.
+- Recalculate eligibility based on planned skills.
+- Application tracking and analytics.
+
+---
+
+## 👤 Author & Ownership
+
+This project is designed, developed, and maintained by **Shubham Mahajan**.
+
+- GitHub: https://github.com/ShubhamMahajan880  
+- LinkedIn: https://www.linkedin.com/in/shubham-mahajan-2a9a47220/
+
+The application includes an in-app author watermark and footer credit to clearly establish ownership and originality.
+
+---
+
+## ⭐ Why This Project Matters
+
+This project demonstrates:
+- Practical resume screening logic inspired by ATS systems.
+- Explainable and deterministic decision-making.
+- Clean separation of logic and UI.
+- End-to-end product thinking, not just scripts.
+
+Suitable for showcasing in **SDE / AI / Backend / Full-Stack** interviews.
