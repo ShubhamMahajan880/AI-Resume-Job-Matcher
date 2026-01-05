@@ -4,7 +4,7 @@ An AI-powered Streamlit application that evaluates how well a resume matches a g
 The system calculates a percentage match, determines eligibility, highlights matching and missing skills, and suggests what to learn to qualify for the role.
 
 This project simulates an **ATS-style resume screening process** using transparent, skill-based evaluation.
-
+Read the full project proposal - [https://github.com/ShubhamMahajan880/studyAlpha-Ai-Agent]
 ---
 
 ## 🌐 Live Demo
